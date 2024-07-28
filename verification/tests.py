@@ -10,7 +10,7 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        [
+        
     {
         "input": [["fazer ação 1", "fazer ação 2", "desfazer"]],
         "answer": ["fazer ação 1"]
@@ -19,6 +19,6 @@ TESTS = {
         "input": [["fazer ação 1", "desfazer", "refazer"]],
         "answer": ["fazer ação 1"]
     }
-]
+
     ]
 }
