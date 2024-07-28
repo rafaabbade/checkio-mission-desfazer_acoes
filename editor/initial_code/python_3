@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def desfazer_acoes(comandos):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(desfazer_acoes(["fazer ação 1", "fazer ação 2", "desfazer"]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert desfazer_acoes(["fazer ação 1", "fazer ação 2", "desfazer"]) == ["fazer ação 1"]
+assert desfazer_acoes(["fazer ação 1", "desfazer", "refazer"]) == ["fazer ação 1"]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

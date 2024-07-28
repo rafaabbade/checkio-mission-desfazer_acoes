@@ -1,22 +1,23 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Prática:</strong> Reforce o conhecimento adquirido. Aplique as técnicas aprendidas e repita os exercícios até se sentir confiante.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Pedro, um editor de texto, precisa implementar uma funcionalidade de "desfazer" e "refazer" em seu software. Ele quer usar uma pilha para armazenar as ações realizadas e poder desfazê-las ou refazê-las.
+Crie uma função que simule as ações de desfazer e refazer em um editor de texto. A função deve permitir adicionar ações, desfazer a última ação e refazer a ação desfeita.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Uma lista de comandos, onde cada comando é uma string: "fazer <ação>", "desfazer", "refazer".
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> A lista de ações após a execução de todos os comandos.
 </p>
 
 
@@ -32,11 +33,14 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    desfazer_acoes(["fazer ação 1", "fazer ação 2", "desfazer"]) >> ["fazer ação 1"]
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Pilhas</li>
+<li>Identificação de Padrões em Sequências</li>
+<li>Manipulação de Strings</li>
+<li>Controle de Fluxo e Iteração</li>
 </ul>
